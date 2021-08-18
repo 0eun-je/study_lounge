@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>스터디라운지</title>
+
+    <meta name="author" content="Je yeong eun">
+    <meta name="description" content="천안 최대 규모의 프리미엄 독서실, 스터디라운지">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ICON -->
+    <link rel="icon" href="../img/logo.png">
+    <link rel="apple-touch-icon" href="../img/logo.png">
+
+    <!-- FONT -->
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+    <!-- LINK -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script defer src="../js/modal.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- 최상단 메뉴 -->
+        <div class="top_bar">
+            <div class="top_container clearfix">
+                <ul class="info float--left">
+                    <i class="fas fa-mobile-alt"></i>
+                    <li>041-557-7824</li>
+                    <i class="far fa-clock"></i>
+                    <li>Mon-Sat: 09:00-02:00 | Sun: 09:00-00:00 </li>
+                </ul>
+
+                <ul class="sns float--right">
+                    <li><a href="https://www.instagram.com/studylounge_cheonan/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://blog.naver.com/PostList.naver?blogId=studylounge7824" target="_blank"><i class="fab fa-blogger"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 상단 메뉴 -->
+        <div class="main-menu">
+            <a href="../index.html"><img class="main-logo" src="../img/logo.png" alt="스터디라운지 로고"></a>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="introduction.html">스터디라운지 소개</a>
+                        <ul class="sub-menu">
+                            <li><a href="introduction.html">소개</a></li>
+                            <li><a href="directions.html">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="facility_index.html">시설안내</a>
+                        <ul class="sub-menu">
+                            <li><a href="facility_index.html">전체</a></li>
+                            <li><a href="facility_premium.html">프리미엄석</a></li>
+                            <li><a href="facility_single.html">1인석</a></li>
+                            <li><a href="facility_curtain.html">커튼석</a></li>
+                            <li><a href="facility_open.html">오픈석</a></li>
+                            <li><a href="facility_free.html">프리석</a></li>
+                            <li><a href="facility_cafe.html">카페</a></li>
+                            <li><a href="facility_studyroom.html">스터디룸</a></li>
+                            <li><a href="facility_convenient.html">편의시설</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="price.html">요금안내</a></li>
+                    <li><a href="event.html">이벤트</a></li>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><button type='button' id="modal-btn">상담문의</button>
+                        <div class="modal_wrap">
+                            <div class="modal_close"><a href="#"><i class="far fa-window-close"></i></a></div>
+                            <img src="../img/logo.png" alt="">
+                            <button class="modal_container kakao" onclick="location.href='#'">
+                                <i class="fas fa-comments modal-sns-icon"></i>
+                                <h5>카카오톡으로 상담하기</h5>
+                            </button>
+                            <button class="modal_container instagram" onclick="location.href='https://www.instagram.com/studylounge_cheonan/'">
+                                <i class="fab fa-instagram modal-sns-icon"></i>
+                                <h5>인스타그램으로 상담하기</h5>
+                            </button>
+                            <button class="modal_container blog" onclick="location.href='https://blog.naver.com/PostList.naver?blogId=studylounge7824'">
+                                <i class="fab fa-blogger modal-sns-icon"></i>
+                                <h5>블로그에서 상담하기</h5>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="new-register-btn"><a href="https://blog.naver.com/studylounge7824/221123326704" target="_blank">무료체험 신청하기</a></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- VISUAL -->
+    <div class="top_visual top-img-price">
+        <h2>요금안내</h2>
+    </div>
+
+    <section class="content_container">
+        <h2 class="price_title">이용 요금</h2>
+        
+        <table id="basic_price">
+            <th></th>
+            <th>프리미엄 1인실</th>
+            <th>1인실</th>
+            <th>커튼</th>
+            <th>오픈</th>
+            <th>프리</th>
+            <tr>
+                <th>1개월</th>
+                <td>200,000원</td>
+                <td>160,000원</td>
+                <td>140,000원</td>
+                <td>130,000원</td>
+                <td>120,000원</td>
+            </tr>
+            <tr>
+                <th>1일</th>
+                <td>15,000원</td>
+                <td>12,000원</td>
+                <td>11,000원</td>
+                <td colspan="2">10,000원</td>
+            </tr>
+        </table>
+
+        <table id="part_price">
+            <th class="table-title" colspan="3">시간제 요금제(프리석)</th>
+            <tr>
+                <th>2시간</th>
+                <th>4시간</th>
+                <th>8시간</th>
+            </tr>
+            <tr>
+                <td>4,000원</td>
+                <td>6,000원</td>
+                <td>8,000원</td>
+            </tr>
+        </table>
+
+        <table id="ppakgong_price">
+            <th class="table-title" colspan="10">스터디라운지 빡공 이용권</th>
+            <tr>
+                <th class="ppakgong-date" rowspan="4">7일</td>
+            </tr>
+            <tr>
+                <th>프리미엄 1인실</th>
+                <th>1인실</th>
+                <th>커튼석</th>
+                <th>오픈/프리</th>
+                <th rowspan="2">10일</th>
+                <th>프리미엄 1인실</th>
+                <th>1인실</th>
+                <th>커튼석</th>
+                <th>오픈/프리</th>
+            </tr>
+            <tr>
+                <td>85,000원</td>
+                <td>65,000원</td>
+                <td>55,000원</td>
+                <td>50,000원</td>
+                <td>85,000원</td>
+                <td>65,000원</td>
+                <td>55,000원</td>
+                <td>50,000원</td>
+            </tr>
+        </table>
+        <p class="ppakgong-description">* 빡공 이용권은 등록 후 환불이 불가함을 알려드립니다.</p>
+
+        <div class="table_container clearfix">
+            <table id="studyroom_price" class="float--left">
+            <th class="table-title" colspan="2">그룹 스터디룸 이용방법</th>
+            <tr>
+                <th>기본 2시간</th>
+                <td>4,000원(1인)</td>
+            </tr>
+            <tr>
+                <th>2시간 경과 후 1시간</th>
+                <td>2,000원</td>
+            </tr>
+            <tr>
+                <td colspan="2">* 전화 예약 후 이용 가능<br>
+                * 일회성으로 공부하고 싶은 분<br>
+                * 2인~4인 이용 가능 (1인 이용 시 2인 금액이 적용됨)</td>
+            </tr>
+        </table>
+
+        <table id="cafe_price" class="float--right">
+            <th class="table-title" colspan="2">카페테리아 이용 요금 안내</th>
+            <tr>
+                <th>기본 2시간</th>
+                <td>4,000원</td>
+            </tr>
+            <tr>
+                <th>2시간 경과 후 1시간</th>
+                <td>1,000원</td>
+            </tr>
+            <tr>
+                <td colspan="2">* 무료 음료 제공</td>
+            </tr>
+        </table>
+        </div>
+        
+
+        <h2 class="price_title">할인 안내</h2>
+        <table id="discount">
+            <th class="table-title">미스터밥 학원생 특별 할인</th>
+            <th class="table-title">가족 특별 할인</th>
+            <tr>
+                <td>한 달 등록 시 2만원 할인<br>
+                (타 이벤트와 중복 불가)</td>
+                <td>가족 2인 등록 시 한 명 2만원 할인<br>
+                (타 이벤트와 중복 가능)</td>
+            </tr>
+        </table>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer_top">
+            <div class="logo_box">
+                <a href="../index.html"><div class="logo_img"></div></a>
+                <p>스터디라운지는 고객의 목소리를 소중히 여기며<br>
+                편안하고 쾌적한 학습 환경을 제공하기 위해 최선을 다합니다.</p>
+            </div>
+            
+
+            <div class="phonenumber">
+                <i class="fas fa-phone-square-alt"></i>
+                <h2>041-557-7824</h2>
+            </div>
+        </div>
+
+        <div class="footer_container">
+            <h5>(주)스터디라운지&nbsp;&nbsp; | &nbsp;&nbsp;대표자 : 이종민 &nbsp;&nbsp;| &nbsp;&nbsp;주소 : 충청남도 천안시 서북구 불당4로 91 엘리시온빌딩 10층</h5>
+            <p>Copyright© Study Lounge. All rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>

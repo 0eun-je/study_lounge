@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>스터디라운지</title>
+
+    <meta name="author" content="Je yeong eun">
+    <meta name="description" content="천안 최대 규모의 프리미엄 독서실, 스터디라운지">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no, maximum-scale=1, minimum-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <!-- ICON -->
+    <link rel="icon" href="../img/logo.png">
+    <link rel="apple-touch-icon" href="../img/logo.png">
+
+    <!-- LINK -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script deter src="../js/modal.js"></script>
+</head>
+<body>
+    <!-- HEADER -->
+    <header>
+        <!-- 최상단 메뉴 -->
+        <div class="top_bar">
+            <div class="top_container clearfix">
+                <ul class="info float--left">
+                    <i class="fas fa-mobile-alt"></i>
+                    <li>041-557-7824</li>
+                    <i class="far fa-clock"></i>
+                    <li>Mon-Sat: 09:00-02:00 | Sun: 09:00-00:00 </li>
+                </ul>
+
+                <ul class="sns float--right">
+                    <li><a href="https://www.instagram.com/studylounge_cheonan/" target="_blank"><i class="fab fa-instagram"></i></a></li>
+                    <li><a href="https://blog.naver.com/PostList.naver?blogId=studylounge7824" target="_blank"><i class="fab fa-blogger"></i></a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 상단 메뉴 -->
+        <div class="main-menu">
+            <a href="../index.html"><img class="main-logo" src="../img/logo.png" alt="스터디라운지 로고"></a>
+            <nav id="navbar">
+                <ul>
+                    <li><a href="introduction.html">스터디라운지 소개</a>
+                        <ul class="sub-menu">
+                            <li><a href="introduction.html">소개</a></li>
+                            <li><a href="directions.html">오시는 길</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="facility_index.html">시설안내</a>
+                        <ul class="sub-menu">
+                            <li><a href="facility_index.html">전체</a></li>
+                            <li><a href="facility_premium.html">프리미엄석</a></li>
+                            <li><a href="facility_single.html">1인석</a></li>
+                            <li><a href="facility_curtain.html">커튼석</a></li>
+                            <li><a href="facility_open.html">오픈석</a></li>
+                            <li><a href="facility_free.html">프리석</a></li>
+                            <li><a href="facility_cafe.html">카페</a></li>
+                            <li><a href="facility_studyroom.html">스터디룸</a></li>
+                            <li><a href="facility_convenient.html">편의시설</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="price.html">요금안내</a></li>
+                    <li><a href="event.html">이벤트</a></li>
+                    <li><a href="notice.html">공지사항</a></li>
+                    <li><button type='button' id="modal-btn">상담문의</button>
+                        <div class="modal_wrap">
+                            <div class="modal_close"><a href="#"><i class="far fa-window-close"></i></a></div>
+                            <img src="../img/logo.png" alt="">
+                            <button class="modal_container kakao" onclick="location.href='#'">
+                                <i class="fas fa-comments modal-sns-icon"></i>
+                                <h5>카카오톡으로 상담하기</h5>
+                            </button>
+                            <button class="modal_container instagram" onclick="location.href='https://www.instagram.com/studylounge_cheonan/'">
+                                <i class="fab fa-instagram modal-sns-icon"></i>
+                                <h5>인스타그램으로 상담하기</h5>
+                            </button>
+                            <button class="modal_container blog" onclick="location.href='https://blog.naver.com/PostList.naver?blogId=studylounge7824'">
+                                <i class="fab fa-blogger modal-sns-icon"></i>
+                                <h5>블로그에서 상담하기</h5>
+                            </button>
+                        </div>
+                    </li>
+                </ul>
+                <button class="new-register-btn"><a href="https://blog.naver.com/studylounge7824/221123326704" target="_blank">무료체험 신청하기</a></button>
+            </nav>
+        </div>
+    </header>
+
+    <!-- VISUAL -->
+    <div class="top_facility_visual">
+        <h2>시설안내</h2>
+    </div>
+
+    <div class="facility_visual">
+        
+        <div class="facility-title">
+            <h2>커튼석</h2>
+            <i class="fas fa-chair"></i>
+            <span>6석</span>
+        </div>
+        
+        <h3>창가를 마주보고 있어 밝은 햇살을 맞으며 공부할 수 있으며, 커튼으로 개인적인 공간 확보가 가능합니다.<br>
+            원목으로 이루어진 책상과 편안한 시디즈 의자와 함께 쾌적하고 편안하게 이용할 수 있습니다.</h3>
+
+        <div class="facility_slider">
+            <input type="radio" name="facil-slide" id="slide01" checked>
+            <input type="radio" name="facil-slide" id="slide02">
+
+            <div class="slide_wrap">
+                <ul class="slide-list">
+                    <!-- 슬라이드 영역 -->
+                    <li class="slide-item">
+                        <img src="../img/facility/curtain01.jpg" alt="">
+                    </li>
+                    <li class="slide-item">
+                        <img src="../img/facility/curtain02.jpg" alt="">
+                    </li>
+
+                    <div class="slide-control">
+                        <div>
+                            <label for="slide02" class="left"></label>
+                            <label for="slide02" class="right"></label>
+                        </div>
+                        <div>
+                            <label for="slide01" class="left"></label>
+                            <label for="slide01" class="right"></label>
+                        </div>
+                    </div>
+                </ul>
+
+                <ul class="slide-pagelist">
+                    <li><label for="slide01"></label></li>
+                    <li><label for="slide02"></label></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="footer_top">
+            <div class="logo_box">
+                <a href="../index.html"><div class="logo_img"></div></a>
+                <p>스터디라운지는 고객의 목소리를 소중히 여기며<br>
+                편안하고 쾌적한 학습 환경을 제공하기 위해 최선을 다합니다.</p>
+            </div>
+            
+
+            <div class="phonenumber">
+                <i class="fas fa-phone-square-alt"></i>
+                <h2>041-557-7824</h2>
+            </div>
+        </div>
+
+        <div class="footer_container">
+            <h5>(주)스터디라운지&nbsp;&nbsp; | &nbsp;&nbsp;대표자 : 이종민 &nbsp;&nbsp;| &nbsp;&nbsp;주소 : 충청남도 천안시 서북구 불당4로 91 엘리시온빌딩 10층</h5>
+            <p>Copyright© Study Lounge. All rights Reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
